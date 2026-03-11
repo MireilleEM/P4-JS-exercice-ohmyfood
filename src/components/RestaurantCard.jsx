@@ -1,19 +1,22 @@
+
+import '@/app/styles.css';
 import '../styles/RestaurantCard.css'
 
-  const Cart = () => {
-  const monstera = 8
-  const lierre = 10
-  const bouquet = 15
+
+  const RestaurantCard = () => {
+  const nom = "La palette du goût"
+  const location = "Ménilmontant"
+ 
 
   return (
-    <div className= 'cart'>
-      <h2>Panier</h2>
-      <ul>
-        <li>Monstera : {monstera}€</li>
-        <li>Lierre : {lierre}€</li>
-        <li>Bouquet de fleurs : {bouquet}€</li>
-      </ul>
-      <p>Total : {monstera + lierre + bouquet}€</p>
+    <div  className = 'restaurantCard'>
+      <div className='imgContent'>
+      <img className='image' 
+        src="/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
+        alt="photo du restaurant La palette du goût" 
+      /></div>
+      <h3>{nom}</h3>
+      <p>{location}</p>
     </div>
   )
 }
