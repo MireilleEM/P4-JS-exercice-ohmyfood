@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 
-export default function RestaurantHeader({ name }) {
+export default function RestaurantHeader({ name}) {
   const [isLiked, setIsLiked] = useState(false);
 
   return (
