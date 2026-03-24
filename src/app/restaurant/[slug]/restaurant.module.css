@@ -1,0 +1,11 @@
+/* src/app/restaurant/[slug]/restaurant.module.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: white;
+}
+
+
+
