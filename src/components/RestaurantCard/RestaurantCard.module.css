@@ -92,6 +92,17 @@ ss.imageContainer {
   color: #9356DC;
 }
 
-.liked .heartIcon {
-  color: transparent;
-} 
+/*.liked .heartIcon {
+  color: transparent;*/
+
+/* On garde les dimensions quand c'est liké */
+.Liked {
+  width: 24px;
+  height: 24px;
+}
+
+/* On cible le tracé (<path>) à l'intérieur de l'icône, 
+   et on lui applique l'ID du dégradé */
+.Liked path {
+  fill: url(#coeur-gradient);
+}
