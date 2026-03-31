@@ -33,6 +33,7 @@ import { faHeart as faHeartSolid } from "@fortawesome/free-solid-svg-icons";
   return (
     <>
       {restaurants.map((restaurant) => (
+        //onrajoute un Lien 
     <Link key={restaurant.id} href={`/restaurant/${restaurant.slug}`}>
     <article  className={styles.card}>
       <div className={styles.imageContainer}>
