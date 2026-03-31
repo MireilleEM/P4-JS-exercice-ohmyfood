@@ -7,5 +7,60 @@
   background-color: white;
 }
 
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 20px;
+  position: relative;
+}
+
+.logo {
+  height: 30px;
+  object-fit: contain;
+}
+
+
+
+.bannerContainer {
+  width: 100%;
+}
+
+.bannerImage {
+  width: 100%;
+  height: 275px;
+  object-fit: cover; /* Garde les proportions de l'image */
+}
+
+
+/* La fameuse zone grise qui remonte sur l'image */
+.menuSection {
+  background-color: #f6f6f6;
+  border-radius: 40px 40px 0 0;
+  position: relative; 
+  margin-top: -50px; /* Fait remonter la section sur l'image */
+  padding: 40px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menuHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 800px; /* Pour que ça reste beau sur grand écran */
+  margin-bottom: 30px;
+}
+
+.restaurantTitle {
+  font-family: 'Shrikhand', cursive; /* La police du titre Ohmyfood */
+  font-size: 28px;
+  font-weight: 400;
+  margin: 0;
+}
+
+
 
 
