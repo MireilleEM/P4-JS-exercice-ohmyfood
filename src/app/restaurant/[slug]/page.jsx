@@ -19,11 +19,11 @@ export default async function RestaurantPage({ params }) {
   const image = pageRestaurant.image;
   const isNew = pageRestaurant.isNew;
   // On extrait les listes de plats depuis le "menu" de chaque resto
-  const entrees = pageRestaurant.menu.entrées; // Attention à l'accent dans le JSON
+  const entrees = pageRestaurant.menu.entrées; // accent dans le JSON
   const plats = pageRestaurant.menu.plats;
   const desserts = pageRestaurant.menu.desserts;
   //on peut aussi écrire : const { entrées, plats, desserts } = pageRestaurant.menu; pour faire du destructuring
- // 2. La condition demandée par l'exercice : si le restaurant n'existe pas
+ // 2. La condition demandée si le restaurant n'existe pas
   
  
     return (
